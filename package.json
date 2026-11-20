@@ -1,0 +1,25 @@
+{
+  "name": "fastify-backend",
+  "version": "1.0.0",
+  "description": "A basic, modular REST backend built with Fastify",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "fastify",
+    "backend",
+    "api",
+    "nodejs",
+    "rest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^11.4.3",
+    "fastify": "^5.12.8"
+  }
+}
